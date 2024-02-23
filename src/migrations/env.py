@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from config import settings
+from src.config.config import settings
 
 from src.models.city import City # noqa
 from src.models.weather import Weather # noqa
